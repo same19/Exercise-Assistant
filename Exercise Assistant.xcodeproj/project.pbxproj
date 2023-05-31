@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5273DFD280A1852001AB735 /* AnimationCompletionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5273DFC280A1852001AB735 /* AnimationCompletionModifier.swift */; };
+		A5273DFE280A1852001AB735 /* AnimationCompletionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5273DFC280A1852001AB735 /* AnimationCompletionModifier.swift */; };
+		A5273E00280A19C3001AB735 /* EndWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5273DFF280A19C3001AB735 /* EndWorkoutView.swift */; };
+		A5273E01280A19C3001AB735 /* EndWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5273DFF280A19C3001AB735 /* EndWorkoutView.swift */; };
+		A5343351280E8027001E0436 /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534334C280E8027001E0436 /* StreakView.swift */; };
+		A5343352280E8027001E0436 /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534334C280E8027001E0436 /* StreakView.swift */; };
+		A5343353280E8027001E0436 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534334D280E8027001E0436 /* ProgressView.swift */; };
+		A5343354280E8027001E0436 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534334D280E8027001E0436 /* ProgressView.swift */; };
+		A5343355280E8027001E0436 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534334E280E8027001E0436 /* ExploreView.swift */; };
+		A5343356280E8027001E0436 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534334E280E8027001E0436 /* ExploreView.swift */; };
+		A5343358280E8050001E0436 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5343357280E8050001E0436 /* ProfileView.swift */; };
+		A5343359280E8050001E0436 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5343357280E8050001E0436 /* ProfileView.swift */; };
+		A534335B280E8380001E0436 /* SelectExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534335A280E8380001E0436 /* SelectExercisesView.swift */; };
+		A534335C280E8380001E0436 /* SelectExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534335A280E8380001E0436 /* SelectExercisesView.swift */; };
+		A5567EE92807E40900C51AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5567EE82807E40900C51AA7 /* Launch Screen.storyboard */; };
+		A5567EEA2807E40900C51AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5567EE82807E40900C51AA7 /* Launch Screen.storyboard */; };
+		A56C46D22806339700F2EE76 /* CreateExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C46D12806339700F2EE76 /* CreateExerciseView.swift */; };
+		A56C46D32806339700F2EE76 /* CreateExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C46D12806339700F2EE76 /* CreateExerciseView.swift */; };
+		A5A0E4442A23F0A2003D3F77 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = A5A0E4432A23F0A2003D3F77 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		A5A0E4462A23F0A2003D3F77 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A5A0E4452A23F0A2003D3F77 /* FirebaseAuth */; };
+		A5A0E4482A23F0A2003D3F77 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A5A0E4472A23F0A2003D3F77 /* FirebaseDatabase */; };
+		A5A0E44A2A240BC9003D3F77 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0E4492A240BC9003D3F77 /* LoginScreen.swift */; };
+		A5A0E44B2A240BC9003D3F77 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A0E4492A240BC9003D3F77 /* LoginScreen.swift */; };
 		A5AD1B0D28051EF6003965D1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B0C28051EF6003965D1 /* Tests_iOS.swift */; };
 		A5AD1B0F28051EF6003965D1 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B0E28051EF6003965D1 /* Tests_iOSLaunchTests.swift */; };
 		A5AD1B1928051EF6003965D1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B1828051EF6003965D1 /* Tests_macOS.swift */; };
@@ -17,6 +40,19 @@
 		A5AD1B1F28051EF6003965D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1AF528051EF3003965D1 /* ContentView.swift */; };
 		A5AD1B2028051EF6003965D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AD1AF628051EF5003965D1 /* Assets.xcassets */; };
 		A5AD1B2128051EF6003965D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AD1AF628051EF5003965D1 /* Assets.xcassets */; };
+		A5AD1B31280522C6003965D1 /* SelectWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B30280522C6003965D1 /* SelectWorkoutView.swift */; };
+		A5AD1B32280522C6003965D1 /* SelectWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B30280522C6003965D1 /* SelectWorkoutView.swift */; };
+		A5AD1B34280522DB003965D1 /* StartWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B33280522DB003965D1 /* StartWorkoutView.swift */; };
+		A5AD1B35280522DB003965D1 /* StartWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B33280522DB003965D1 /* StartWorkoutView.swift */; };
+		A5AD1B37280524C9003965D1 /* APIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B36280524C9003965D1 /* APIConnection.swift */; };
+		A5AD1B38280524C9003965D1 /* APIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B36280524C9003965D1 /* APIConnection.swift */; };
+		A5AD1B3A28052E19003965D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B3928052E19003965D1 /* HomeView.swift */; };
+		A5AD1B3B28052E19003965D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B3928052E19003965D1 /* HomeView.swift */; };
+		A5AD1B3D28053159003965D1 /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B3C28053159003965D1 /* CreateWorkoutView.swift */; };
+		A5AD1B3E28053159003965D1 /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AD1B3C28053159003965D1 /* CreateWorkoutView.swift */; };
+		A5FEB5BA280C765A0028CBDD /* AVPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB5B9280C765A0028CBDD /* AVPlayerViewModel.swift */; };
+		A5FEB5BB280C765A0028CBDD /* AVPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB5B9280C765A0028CBDD /* AVPlayerViewModel.swift */; };
+		A5FEB5BF280C76960028CBDD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FEB5BE280C76960028CBDD /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +73,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5273DFC280A1852001AB735 /* AnimationCompletionModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCompletionModifier.swift; sourceTree = "<group>"; };
+		A5273DFF280A19C3001AB735 /* EndWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndWorkoutView.swift; sourceTree = "<group>"; };
+		A534334C280E8027001E0436 /* StreakView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
+		A534334D280E8027001E0436 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A534334E280E8027001E0436 /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A5343357280E8050001E0436 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A534335A280E8380001E0436 /* SelectExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectExercisesView.swift; sourceTree = "<group>"; };
+		A5567EE82807E40900C51AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A5567EEB2807E73C00C51AA7 /* Exercise-Assistant--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Exercise-Assistant--iOS--Info.plist"; sourceTree = "<group>"; };
+		A56C46D12806339700F2EE76 /* CreateExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateExerciseView.swift; path = ../../../../Documents/CreateExerciseView.swift; sourceTree = "<group>"; };
+		A56F25E6280E75D8004753FE /* CreateExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExerciseView.swift; sourceTree = "<group>"; };
+		A5A0E4492A240BC9003D3F77 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		A5AD1AF428051EF3003965D1 /* Exercise_AssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_AssistantApp.swift; sourceTree = "<group>"; };
 		A5AD1AF528051EF3003965D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5AD1AF628051EF5003965D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +97,14 @@
 		A5AD1B1428051EF6003965D1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AD1B1828051EF6003965D1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A5AD1B1A28051EF6003965D1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A5AD1B30280522C6003965D1 /* SelectWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectWorkoutView.swift; sourceTree = "<group>"; };
+		A5AD1B33280522DB003965D1 /* StartWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkoutView.swift; sourceTree = "<group>"; };
+		A5AD1B36280524C9003965D1 /* APIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnection.swift; sourceTree = "<group>"; };
+		A5AD1B3928052E19003965D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A5AD1B3C28053159003965D1 /* CreateWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutView.swift; sourceTree = "<group>"; };
+		A5FEB5B9280C765A0028CBDD /* AVPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewModel.swift; sourceTree = "<group>"; };
+		A5FEB5BC280C76950028CBDD /* Exercise Assistant (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Exercise Assistant (iOS).entitlements"; sourceTree = "<group>"; };
+		A5FEB5BE280C76960028CBDD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5FEB5BF280C76960028CBDD /* AudioToolbox.framework in Frameworks */,
+				A5A0E4462A23F0A2003D3F77 /* FirebaseAuth in Frameworks */,
+				A5A0E4482A23F0A2003D3F77 /* FirebaseDatabase in Frameworks */,
+				A5A0E4442A23F0A2003D3F77 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,14 +143,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A56F25E5280E75CC004753FE /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				A5273DFF280A19C3001AB735 /* EndWorkoutView.swift */,
+				A5AD1B30280522C6003965D1 /* SelectWorkoutView.swift */,
+				A56F25E6280E75D8004753FE /* CreateExerciseView.swift */,
+				A5AD1B33280522DB003965D1 /* StartWorkoutView.swift */,
+				A5AD1B3C28053159003965D1 /* CreateWorkoutView.swift */,
+				A534335A280E8380001E0436 /* SelectExercisesView.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		A56F25E7280E75EA004753FE /* Imported */ = {
+			isa = PBXGroup;
+			children = (
+				A5273DFC280A1852001AB735 /* AnimationCompletionModifier.swift */,
+				A5FEB5B9280C765A0028CBDD /* AVPlayerViewModel.swift */,
+			);
+			path = Imported;
+			sourceTree = "<group>";
+		};
 		A5AD1AEE28051EF3003965D1 = {
 			isa = PBXGroup;
 			children = (
+				A5FEB5BC280C76950028CBDD /* Exercise Assistant (iOS).entitlements */,
+				A5567EEB2807E73C00C51AA7 /* Exercise-Assistant--iOS--Info.plist */,
 				A5AD1AF328051EF3003965D1 /* Shared */,
 				A5AD1B0228051EF6003965D1 /* macOS */,
 				A5AD1B0B28051EF6003965D1 /* Tests iOS */,
 				A5AD1B1728051EF6003965D1 /* Tests macOS */,
 				A5AD1AFC28051EF6003965D1 /* Products */,
+				A5FEB5BD280C76960028CBDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +184,18 @@
 			children = (
 				A5AD1AF428051EF3003965D1 /* Exercise_AssistantApp.swift */,
 				A5AD1AF528051EF3003965D1 /* ContentView.swift */,
+				A56C46D12806339700F2EE76 /* CreateExerciseView.swift */,
+				A56F25E7280E75EA004753FE /* Imported */,
+				A56F25E5280E75CC004753FE /* Workout */,
+				A5AD1B3928052E19003965D1 /* HomeView.swift */,
+				A5AD1B36280524C9003965D1 /* APIConnection.swift */,
+				A5A0E4492A240BC9003D3F77 /* LoginScreen.swift */,
 				A5AD1AF628051EF5003965D1 /* Assets.xcassets */,
+				A5567EE82807E40900C51AA7 /* Launch Screen.storyboard */,
+				A534334E280E8027001E0436 /* ExploreView.swift */,
+				A534334D280E8027001E0436 /* ProgressView.swift */,
+				A534334C280E8027001E0436 /* StreakView.swift */,
+				A5343357280E8050001E0436 /* ProfileView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,6 +237,14 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		A5FEB5BD280C76960028CBDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB5BE280C76960028CBDD /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +261,11 @@
 			dependencies = (
 			);
 			name = "Exercise Assistant (iOS)";
+			packageProductDependencies = (
+				A5A0E4432A23F0A2003D3F77 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				A5A0E4452A23F0A2003D3F77 /* FirebaseAuth */,
+				A5A0E4472A23F0A2003D3F77 /* FirebaseDatabase */,
+			);
 			productName = "Exercise Assistant (iOS)";
 			productReference = A5AD1AFB28051EF6003965D1 /* Exercise Assistant.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +358,9 @@
 				Base,
 			);
 			mainGroup = A5AD1AEE28051EF3003965D1;
+			packageReferences = (
+				A5A0E4422A23F0A2003D3F77 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A5AD1AFC28051EF6003965D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,6 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5567EE92807E40900C51AA7 /* Launch Screen.storyboard in Resources */,
 				A5AD1B2028051EF6003965D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +387,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5567EEA2807E40900C51AA7 /* Launch Screen.storyboard in Resources */,
 				A5AD1B2128051EF6003965D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,8 +413,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AD1B3D28053159003965D1 /* CreateWorkoutView.swift in Sources */,
+				A5343353280E8027001E0436 /* ProgressView.swift in Sources */,
+				A5AD1B31280522C6003965D1 /* SelectWorkoutView.swift in Sources */,
+				A56C46D22806339700F2EE76 /* CreateExerciseView.swift in Sources */,
 				A5AD1B1E28051EF6003965D1 /* ContentView.swift in Sources */,
+				A5343355280E8027001E0436 /* ExploreView.swift in Sources */,
+				A5A0E44A2A240BC9003D3F77 /* LoginScreen.swift in Sources */,
+				A534335B280E8380001E0436 /* SelectExercisesView.swift in Sources */,
+				A5273DFD280A1852001AB735 /* AnimationCompletionModifier.swift in Sources */,
+				A5343358280E8050001E0436 /* ProfileView.swift in Sources */,
 				A5AD1B1C28051EF6003965D1 /* Exercise_AssistantApp.swift in Sources */,
+				A5AD1B3A28052E19003965D1 /* HomeView.swift in Sources */,
+				A5AD1B37280524C9003965D1 /* APIConnection.swift in Sources */,
+				A5343351280E8027001E0436 /* StreakView.swift in Sources */,
+				A5FEB5BA280C765A0028CBDD /* AVPlayerViewModel.swift in Sources */,
+				A5273E00280A19C3001AB735 /* EndWorkoutView.swift in Sources */,
+				A5AD1B34280522DB003965D1 /* StartWorkoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +437,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AD1B3E28053159003965D1 /* CreateWorkoutView.swift in Sources */,
+				A5343354280E8027001E0436 /* ProgressView.swift in Sources */,
+				A5AD1B32280522C6003965D1 /* SelectWorkoutView.swift in Sources */,
+				A56C46D32806339700F2EE76 /* CreateExerciseView.swift in Sources */,
 				A5AD1B1F28051EF6003965D1 /* ContentView.swift in Sources */,
+				A5343356280E8027001E0436 /* ExploreView.swift in Sources */,
+				A5A0E44B2A240BC9003D3F77 /* LoginScreen.swift in Sources */,
+				A534335C280E8380001E0436 /* SelectExercisesView.swift in Sources */,
+				A5273DFE280A1852001AB735 /* AnimationCompletionModifier.swift in Sources */,
+				A5343359280E8050001E0436 /* ProfileView.swift in Sources */,
 				A5AD1B1D28051EF6003965D1 /* Exercise_AssistantApp.swift in Sources */,
+				A5AD1B3B28052E19003965D1 /* HomeView.swift in Sources */,
+				A5AD1B38280524C9003965D1 /* APIConnection.swift in Sources */,
+				A5343352280E8027001E0436 /* StreakView.swift in Sources */,
+				A5FEB5BB280C765A0028CBDD /* AVPlayerViewModel.swift in Sources */,
+				A5273E01280A19C3001AB735 /* EndWorkoutView.swift in Sources */,
+				A5AD1B35280522DB003965D1 /* StartWorkoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,17 +605,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Exercise Assistant (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZA3FT45Y7V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exercise-Assistant--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,17 +637,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Exercise Assistant (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZA3FT45Y7V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exercise-Assistant--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -701,6 +849,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5A0E4422A23F0A2003D3F77 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5A0E4432A23F0A2003D3F77 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5A0E4422A23F0A2003D3F77 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		A5A0E4452A23F0A2003D3F77 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5A0E4422A23F0A2003D3F77 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A5A0E4472A23F0A2003D3F77 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5A0E4422A23F0A2003D3F77 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5AD1AEF28051EF3003965D1 /* Project object */;
 }
